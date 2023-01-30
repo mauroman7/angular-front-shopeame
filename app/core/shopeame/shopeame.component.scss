@@ -1,0 +1,27 @@
+
+.shop{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopeame{
+    display: flex;
+    justify-content: center;   
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #0C2146;
+}
+
+.logo{
+background: linear-gradient(90deg, #2979FF 0%, #4C589E 100%);
+border-radius: 6px;  
+color: white;
+width: 35px;
+display: flex;
+justify-content: center;
+margin-right: 10px;
+}

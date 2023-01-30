@@ -1,0 +1,26 @@
+.foot{
+    background-color: #333333;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-follow{
+        color: white;
+        margin: 40px 0px 20px 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &-rrss{
+        color: white;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &-copy{
+        color: white;
+        margin: 60px 0px 40px 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+}

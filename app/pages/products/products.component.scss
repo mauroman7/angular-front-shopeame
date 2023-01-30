@@ -1,0 +1,94 @@
+.page{
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #CCCCCC;
+
+&-all{
+
+    width: 70%;
+    height: 50%;
+    background-color: white;
+    border-radius: 14px;
+
+
+
+    &_products{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        
+        gap: 30px;
+        justify-content: center;
+
+    }
+
+}
+
+}
+
+.editarb{
+    margin: 0px 0px 0px 5px;
+    background-color: white;
+    color: #2264D1;
+    border-radius: 1vh;
+    border: solid;
+    padding: 5px 5px 5px 5px;
+}
+.text{
+    margin: 20px 0px 20px 0px;
+}
+
+.price{
+    margin: 10px 0px 10px 0px;
+}
+
+.name{
+    margin: 10px 0px 10px 0px;
+}
+.products{
+    width: 20%;
+    padding: 20px 0px 20px 0px;
+
+    
+}
+
+.listado{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px 30px;
+}
+
+.buscador{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 30px 10px 0px;
+
+}
+
+img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.text{
+    height: 30px;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.puntuacion{
+    display: flex;
+}
+
+.simbols{
+    margin: 0px 30px 30px 30px;
+}
+.simbol{
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+}

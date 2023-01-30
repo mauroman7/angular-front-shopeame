@@ -1,0 +1,16 @@
+
+<form [formGroup]="otherproductForm" (ngSubmit)="onSubmit()">
+    <input formControlName="name" placeholder="name"/>
+    <input formControlName="image" placeholder="image"/>
+    <input formControlName="description" placeholder="description"/>
+    <input formControlName="price" placeholder="price"/>
+    <input formControlName="stars" placeholder="0-5"/>
+    <button class="button" type="submit">Editar</button>
+</form>
+
+        <!-- <h4>{{updatedProduct?.name}}</h4>
+        <img src="{{updatedProduct.image}}"/>
+        <p>{{updatedProduct?.price}}</p>
+        <p>{{updatedProduct?.description}}</p>
+        <p-rating [(ngModel)]="updatedProduct.stars">{{updatedProduct?.stars}}</p-rating>
+         -->

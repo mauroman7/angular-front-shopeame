@@ -1,0 +1,35 @@
+<app-shopeame></app-shopeame>
+<app-navbar></app-navbar>
+
+<div class="page">
+    <div class="page-all">
+        <div class="listado">
+            <div><p>Listado de Productos:</p></div>
+            <div class="simbols">
+                <button class="simbol">≡</button>
+                <button class="simbol">▣</button>
+            </div>
+        </div>
+        <div class="buscador">
+            <input placeholder="Buscar producto" type="text" #filtro (input)="filtrar(filtro.value)"/>
+        </div>
+        <div class="page-all_products">
+            <div class="products" *ngFor="let product of paintedProducts">
+                <img src="{{product.image}}" alt="{{product.name}}"/>
+                <p class="text">{{product.description}}</p>
+                <p class="price">{{product.price}}</p>
+                <p class="name" >{{product.name}}</p>
+                <!--puntuación estrellas -->
+                <div class="puntuacion">
+                    <p>{{product.stars}}</p>
+                    <p-rating [cancel]="false" [(ngModel)]="product.stars">{{product?.stars}}</p-rating>
+                    <!-- <button routerLink="/product/{{product.id}}">Editar</button> -->
+                    <button class="editarb" (click) = "editar(product)">Editar</button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gris"></div>
+<app-footer></app-footer>

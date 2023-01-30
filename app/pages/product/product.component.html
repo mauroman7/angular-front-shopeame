@@ -1,0 +1,19 @@
+<app-shopeame></app-shopeame>
+<app-navbar></app-navbar>
+
+
+<div class="fondo">
+    <div class="blanco">
+        <app-resetproduct></app-resetproduct>
+        <img src="{{product?.image}}" alt="{{product?.name}}"/>
+        <p class="text">{{product?.description}}</p>
+        <p class="price">{{product?.price}}</p>
+        <p>{{product?.name}}</p>
+        <p>{{product?.stars}}</p>
+        <button class="button" routerLink="/products">Volver</button>
+        <!-- <button (click) = "eliminar(product)">Eliminar</button> -->
+        <button class="button" (click)="deleteProduct()">Borrar</button>
+    </div>
+</div>
+
+<app-footer></app-footer>
